@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "${configDir}",
+    "paths": {
+      "@": ["${configDir}/src"],
+      "@/*": ["${configDir}/src/*"]
+    }
+  },
+  "include": [
+    "${configDir}/src/**/*",
+    "${configDir}/test/**/*",
+    "${configDir}/tests/**/*",
+    "${configDir}/scripts/**/*",
+    "${configDir}/playground/**/*",
+    "${configDir}/playgrounds/**/*",
+    "${configDir}/package/**/*",
+    "${configDir}/packages/**/*",
+    "${configDir}/*.js",
+    "${configDir}/*.mjs",
+    "${configDir}/*.ts",
+    "${configDir}/*.mts",
+    "${configDir}/*.json"
+  ],
+  "exclude": [
+    "${configDir}/.out",
+    "${configDir}/.tmp",
+    "${configDir}/.temp",
+    "${configDir}/.dist",
+    "${configDir}/.build",
+    "${configDir}/.cache",
+    "${configDir}/.output",
+    "${configDir}/.private",
+    "${configDir}/.history",
+    "${configDir}/.vercel",
+    "${configDir}/.svelte-kit",
+    "${configDir}/node_modules",
+    "${configDir}/out",
+    "${configDir}/tmp",
+    "${configDir}/temp",
+    "${configDir}/dist",
+    "${configDir}/build",
+    "${configDir}/cache",
+    "${configDir}/output",
+    "${configDir}/history"
+  ]
+}
