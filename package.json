@@ -1,0 +1,55 @@
+{
+  "name": "@sveltek/tsconfig",
+  "version": "1.0.0",
+  "author": "Sveltek",
+  "contributors": [
+    {
+      "name": "Ivo Dolenc",
+      "url": "https://github.com/ivodolenc"
+    }
+  ],
+  "description": "Sveltek's config for TypeScript.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveltek/tsconfig.git"
+  },
+  "homepage": "https://github.com/sveltek/tsconfig",
+  "type": "module",
+  "exports": {
+    ".": "./tsconfig.json"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "sveltek",
+    "svelte",
+    "sveltekit",
+    "typescript",
+    "configuration",
+    "tsconfig",
+    "presets",
+    "config"
+  ],
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "packageManager": "pnpm@10.6.5",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "@types/node": ">=20.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
