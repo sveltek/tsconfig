@@ -12,19 +12,30 @@ pnpm add -D @sveltek/tsconfig
 
 ## Usage
 
-### tsconfig.json
+```ts
+// tsconfig.json
 
-```json
 {
   "extends": "@sveltek/tsconfig"
 }
 ```
 
-## Community
+## Custom Setup
 
-Feel free to ask questions or share new ideas.
+```ts
+// tsconfig.json
 
-Use the official [discussions](https://github.com/sveltek/tsconfig/discussions) to get involved.
+{
+  "extends": "@sveltek/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"]
+    }
+  }
+}
+```
 
 ## License
 
