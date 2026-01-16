@@ -10,6 +10,7 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "${configDir}",
     "paths": {
