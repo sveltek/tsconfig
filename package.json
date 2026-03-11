@@ -27,7 +27,7 @@
     "config"
   ],
   "scripts": {
-    "format": "prettier --write ."
+    "format": "oxfmt"
   },
   "peerDependencies": {
     "@types/node": ">=20.0.0",
@@ -37,8 +37,5 @@
     "@types/node": {
       "optional": true
     }
-  },
-  "devDependencies": {
-    "prettier": "^3.8.0"
   }
 }
